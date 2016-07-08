@@ -10,7 +10,7 @@ var guesses = 0;
 var isSunk = false;
 
 while (isSunk == false) {
-	guess = prompt ("Готов! Прицеливайся! Огонь! (введите число в диапазоне 0-6) : ");
+	guess = prompt ("Ready! Fire!!! Готов! Прицеливайся! Огонь! (введите число в диапазоне 0-6) : ");
 	
 	if (guess < 0 || guess > 6) {
 		alert ("Пожалуйста, введите число из диапазона 0-6!");
